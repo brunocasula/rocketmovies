@@ -45,12 +45,21 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE} ;
     }
     
-    a {
+    button {
       font-size: 1.4rem;
       text-align: end;
-
+      border: none;
+      background: transparent;
+      font-weight: 700;
       color: ${({ theme }) => theme.COLORS.GRAY_200};
     }
+    
+    /* a {
+      font-size: 1.4rem;
+      text-align: end;      
+
+      color: ${({ theme }) => theme.COLORS.GRAY_200};
+    } */
   }
   
   img {    

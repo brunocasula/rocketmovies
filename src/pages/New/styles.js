@@ -49,6 +49,7 @@ export const Form = styled.form`
 
   > div {
     display: flex;
+    flex-wrap: wrap;
     gap: 2.4rem;
     border-radius: .8rem;
     padding: 1.6rem;
